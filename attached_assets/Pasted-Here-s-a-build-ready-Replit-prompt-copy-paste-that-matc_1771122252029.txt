@@ -1,0 +1,304 @@
+Here’s a **build-ready Replit prompt** (copy/paste) that matches your screenshots + the “Creative License / DMV card” aesthetic, but positions **Unrevealed Brand as the Product + Revenue Engine of UV Music Group** and the **100 Apps Project as both internal infrastructure + external client builds**.
+
+---
+
+## ✅ REPLIT PROMPT (COPY/PASTE)
+
+You are working inside a NEW full-stack web app repo called **“unrevealed-brand-site”**.
+
+## GOAL
+
+Build a high-end, responsive **marketing + resume website** for **UNREVEALED BRAND (A Subsidiary of UV Music Group)** with a visual system inspired by the **front and back of a New York State Driver License**, but reimagined as a **CREATIVE LICENSE**.
+
+This site must:
+
+1. Position **Unrevealed Brand** as the **Product Development Arm + Revenue Infrastructure Studio** for **UV Music Group**
+2. Showcase the **100 Apps Project** as a portfolio engine that builds:
+
+   * **Internal infrastructure** (for UV Music Group)
+   * **Commercial builds** (apps/websites for outside businesses)
+3. Include an **“Apply for a Project”** form styled like the **DMV license-back forms**
+4. Include pricing + turnaround:
+
+   * **5–24 hours**
+   * **$100 deposit to start**
+   * **$100 delivery fee**
+   * **6-hour expedited option**
+5. Showcase app tiles in a **“X/100”** format similar to the screenshots provided
+
+## TECH STACK (use defaults)
+
+* Next.js (App Router) + TypeScript
+* Tailwind CSS
+* Framer Motion (subtle animation)
+* Optional: Zod + React Hook Form for form validation
+
+## ASSETS (IMPORTANT)
+
+Use the uploaded images in the project as design references and as actual displayed images where appropriate.
+
+Create a folder: `/public/assets/` and add these files there (if not already):
+
+* Hero / pages screenshots:
+
+  * `1Tm8bcnw.png` (hero)
+  * `SKtgdmSg.png` (donate / gift / fund section)
+  * `WfwJ4yeV.png` (company structure)
+  * `WfwJ4yeV-2.png` (company structure alt)
+  * `JyjyIr9y.png` (apply for project form)
+  * `34qUd0Sp.png` (100 apps project layout)
+  * `uoeS5jTk.png` (revenue infrastructure table)
+  * `OQsf4AGq.png` (mission / licensed to build revenue)
+  * `y3AYp9Yf.png` (creative license card concept)
+
+* Logos:
+
+  * `IMG_1419.jpg` (UV Music Group wordmark)
+  * `IMG_1215.PNG` (UV seal / badge)
+  * `IMG_1211.jpg` (winged H logo)
+
+### Logo background handling
+
+If any logo image has a white background, do NOT manually edit it. Instead:
+
+* Render logos with CSS to visually blend (soft drop shadow + subtle multiply overlay)
+* If needed, apply a “white-to-transparent” trick using `mix-blend-mode: multiply;` on light backgrounds and a soft mask container.
+* Prefer using PNGs with transparency when available; otherwise blend via styling.
+
+## PRIVACY / SENSITIVE INFO RULE
+
+Do NOT display any real personal driver-license data (address, license number, barcode, etc).
+If using a photo derived from the uploaded license images:
+
+* Only use a **cropped portrait**
+* Replace all sensitive fields with branding fields
+* Use a random ID number (9 digits)
+
+## BRAND POSITIONING (COPY MUST MATCH THIS)
+
+UNREVEALED BRAND is:
+
+* The **Product Development Arm** of **UV Music Group**
+* A **Revenue Infrastructure Studio**
+* The builder of the **100 Apps Project**
+* A lean commercial studio building apps/sites for outside businesses
+
+Key line:
+**“Licensed to Build Revenue.”**
+
+Core mission bullets:
+
+* Build platforms that increase the bottom line of UV Music Group
+* Create monetization channels for music IP beyond streaming
+* Build “Music-as-a-Gift” product infrastructure
+* Build apps for other businesses through the 100 Apps Project
+
+## SITE INFORMATION ARCHITECTURE
+
+Top nav:
+
+* Home
+* The 100 Apps Project
+* Apply for Project
+* Company Structure
+* Contact
+
+### 1) HOME (Hero + summary)
+
+Hero must match the screenshot style:
+
+* Cream paper background, guilloche lines, navy typography, subtle border lines
+* Title: **UNREVEALED BRAND**
+* Subtitle: **A Subsidiary of UV Music Group**
+* Headline: **Licensed to Build Revenue.**
+* Nav links under headline (like the screenshot)
+
+Include social icons row and footer style like screenshot.
+
+### 2) “CREATIVE LICENSE” HERO CARD (DMV FRONT INSPIRED)
+
+Create a large “ID card” component centered on the page:
+
+Header band:
+
+* “NEW YORK STATE USA”
+  Main title:
+* “CREATIVE LICENSE”
+  Sub:
+* “UNREVEALED BRAND”
+  Fields (use placeholder values):
+* Creative Director: **Najee Khaleel Jeremiah**
+* Organization: **Unrevealed Brand**
+* “A Subsidiary of UV Music Group”
+* ID Number: random 9 digits
+* Class: **R (Revenue)**
+* Issued: **2014**
+* Expires: **Scaling**
+* Replace “Organ Donor” with **Revenue Donor** (small $ icon)
+
+Photo:
+
+* Use a clean portrait (crop from uploaded photo if needed, but NO sensitive details)
+* Include small thumbnail portrait on the card like a DMV duplicate photo
+
+Top of card above photo:
+
+* Place **UV Music Group logo + UV seal/logo** (blended, transparent-looking)
+
+### 3) MISSION / PURPOSE SECTION (matches screenshot)
+
+Section title:
+**LICENSED TO BUILD REVENUE**
+Two boxed panels with checkboxes:
+
+* Primary Directive
+* Core Identity
+
+### 4) UV MUSIC GROUP REVENUE INFRASTRUCTURE TABLE
+
+Create a 3-column table styled like the screenshot:
+
+* Category 1: Greet Me Platform
+* Category 2: Music-as-a-Gift API
+* Category 3: Emotional Data Systems
+
+Keep copy concise and businesslike.
+
+### 5) THE 100 APPS PROJECT SECTION
+
+Title:
+**THE 100 APPS PROJECT — Infrastructure Portfolio Initiative**
+
+Split into:
+**Internal Infrastructure (for UV Music Group)**
+
+* Greet Me (link placeholder: greetme.me)
+* Denoko Prom Queen (link: **Denoko.com**)
+* Denoko Phone Msgr (link: **[https://www.behance.net/gallery/3234381/3G-Phone-Messenger-by-3G-Interctive](https://www.behance.net/gallery/3234381/3G-Phone-Messenger-by-3G-Interctive)**)
+* Music Charts Platform (coming soon)
+* Music-as-a-Gift API (coming soon)
+
+**Commercial Builds (for outside businesses)**
+
+* Frankie’s Elite Transport (coming soon / link placeholder)
+* Denoko Taxi Dispatch (link placeholder)
+* Classified (coming soon)
+* Company websites / logos / merch design (service categories)
+
+For each app: show a card formatted like:
+
+* Big number label: **5/100**
+* App name
+* One-line description
+* “Revenue Model” line
+* Screenshot thumbnail (use uploaded assets as placeholders)
+
+### 6) APPLY FOR A PROJECT (DMV BACK FORM INSPIRED)
+
+Create a DMV-style form page section that looks like the “address change” form aesthetic:
+Fields:
+
+* Business Name
+* Contact Name
+* Email
+* Phone Number
+  Project Type checkboxes:
+* Mobile App
+* Web Platform
+* Logo & Brand System
+* E-Commerce
+* Infrastructure / API
+  Primary Revenue Goal checkboxes:
+* Increase sales
+* Automate operations
+* Build new product
+* Improve customer experience
+  Project Description textarea
+  File upload (optional)
+
+Submission behavior:
+
+* Save submissions to a local JSON file in `/data/submissions.json` via a Next.js route handler (server action or API route)
+* Show a success “STAMPED” animation (like DMV approval)
+
+### 7) PRICING / TURNAROUND SECTION
+
+Copy must be professional (not hypey):
+
+* “Standard Build: $100 deposit + $100 delivery (Total $200)”
+* “Turnaround: 5–24 hours”
+* “Expedited: 6-hour priority build”
+  Include a comparison box:
+* Traditional agencies: $50,000–$500,000
+* Unrevealed Brand: lean studio + AI-enhanced workflow
+
+Add CTA buttons:
+
+* “Start a Project”
+* “Request Expedited Build”
+
+### 8) SUPPORT / DONATE / GIFT SERVICES
+
+Match the screenshot 3-card layout:
+
+* Donate to the 100 Apps Project
+* Gift a Business App
+* Fund Music-as-a-Gift Infrastructure
+
+Buttons should be wired as placeholders:
+
+* `/donate`
+* `/gift`
+* `/fund`
+  (These pages can be simple with “Payment integration coming soon” + a contact CTA.)
+
+### 9) COMPANY STRUCTURE PAGE
+
+Create the hierarchy diagram:
+UV Music Group → Unrevealed Brand → The 100 Apps Project
+Add “Strategic Purpose” paragraph:
+Unrevealed Brand increases the long-term valuation and revenue capacity of UV Music Group through owned digital infrastructure.
+
+### 10) CONTACT PAGE
+
+Include:
+
+* Email contact form (can reuse the same submission handler)
+* Links: Instagram / X / LinkedIn / YouTube icons like screenshot
+* Footer: “© 2026 Unrevealed Brand. All rights reserved.”
+
+## UI / STYLE REQUIREMENTS (MUST MATCH SCREENSHOTS)
+
+* Cream paper background + guilloche linework + official certificate borders
+* Navy typography; muted red accent for buttons
+* Cards with subtle emboss shadows
+* Fine detail lines and “microprint” style text (use small caps, tracking)
+* Responsive: desktop-first but clean on mobile
+* Smooth scroll; section anchors
+* Add subtle parallax on background guilloche (very light)
+
+## IMPLEMENTATION CHECKLIST
+
+* Use App Router routes:
+
+  * `/` home
+  * `/100-apps`
+  * `/apply`
+  * `/structure`
+  * `/contact`
+  * `/donate`, `/gift`, `/fund` (simple placeholders)
+* Create reusable components:
+
+  * `CreativeLicenseCard`
+  * `SectionFrame` (certificate border wrapper)
+  * `AppTile` (X/100 style)
+  * `DMVForm` (apply form)
+* Add `public/assets` images to display sections similar to your screenshots
+
+## DELIVERABLE
+
+The site should run with `npm run dev` and look extremely close to the provided screenshots in layout, typography hierarchy, and certificate/DMV aesthetic.
+
+---
+
+If you want, I can also paste the **exact copy** for every section (homepage paragraphs, mission bullets, pricing text, app descriptions) so Replit builds it with your final wording on the first run.
